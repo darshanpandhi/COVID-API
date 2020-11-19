@@ -9,7 +9,7 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 * **type (string)**: Total or Active Cases. Required.
 * **city (string)**: Latitude in decimal degrees. Optional.
-* **date (string)**: Date in YYYY-MM-DD format. Also accepts other date formats and even relative date formats. If not present, date defaults to current date. Optional.
+* **date (string)**: Date in YYYY-MM-DD format. Optional.
 
 ## Resources
 

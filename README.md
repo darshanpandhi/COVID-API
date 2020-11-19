@@ -17,9 +17,10 @@ The retrieved data is formatted using JSON, as is shown below:
 
 ????
 
-## Sample Request and Response
+## Sample Requests and Responses
 
-### Request
+### Requests
+
 https://api.covid-manitoba.org/json?cases=total&city='winnipeg'            
 
 https://api.covid-manitoba.org/json?cases=active&date=2020-05-30
@@ -28,7 +29,7 @@ https://api.covid-manitoba.org/json?cases=total
 
 
 
-### Response
+### Responses
   {                       
       "results":                          
       {                                        

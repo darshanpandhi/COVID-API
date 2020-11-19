@@ -30,7 +30,8 @@ https://api.covid-manitoba.org/json?cases=total
 
 
 ### Responses
----
+
+  ```
   {                       
       "results":                          
       {                                        
@@ -41,5 +42,5 @@ https://api.covid-manitoba.org/json?cases=total
         "total_recovered":"100"                           
       },                           
        "status":"OK"                                      
-    }                      
----
+    }        
+  ```

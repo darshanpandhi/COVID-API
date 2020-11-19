@@ -30,7 +30,7 @@ https://api.covid-manitoba.org/json?cases=total
 
 ### Response
 
-The retrieved data is formatted using JSON, as is shown below:
+The retrieved data is formatted using JSON, as is shown below for total cases:
 
 
   ```

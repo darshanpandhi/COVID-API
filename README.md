@@ -8,8 +8,8 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 **Endpoint:** https://api.covid-manitoba.org/json
 
 * **type (string)**: Total or Active Cases. Required.
-* **city (string)**: Latitude in decimal degrees. Optional.
-* **date (string)**: Date in YYYY-MM-DD format. Optional.
+* **city (string)**: Latitude in decimal degrees. Optional. If missing, it will provide statistics for the entire province.                                  
+* **date (string)**: Date in YYYY-MM-DD format. Optional. If missing, it will assume current date.                  
 
 ## Resources
 
@@ -20,8 +20,13 @@ The retrieved data is formatted using JSON, as is shown below:
 ## Sample Request and Response
 
 ### Request
-https://api.covid-manitoba.org/json?city='winnipeg'&lat                             
-https://api.covid-manitoba.org/json?date=2020-05-30
+https://api.covid-manitoba.org/json?cases=total&city='winnipeg'            
+
+https://api.covid-manitoba.org/json?cases=active&date=2020-05-30
+
+https://api.covid-manitoba.org/json?cases=total
+
+
 
 ### Response
   {                       

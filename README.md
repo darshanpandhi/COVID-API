@@ -2,6 +2,8 @@
 
 ## Description
 
+This *free* API  
+
 ## Endpoints and Parameters
 
 ## Resources

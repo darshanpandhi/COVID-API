@@ -14,11 +14,11 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 ## Sample Request and Response
 
-###Request
+### Request
 https://api.covid-manitoba.org/json?city='winnipeg'&lat
 https://api.covid-manitoba.org/json?date=2020-05-30
 
-###Response
+### Response
   {
       "results":
       {

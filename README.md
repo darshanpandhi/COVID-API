@@ -12,6 +12,10 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 ## Resources
 
+The retrieved data is formatted using JSON, as is shown below:
+
+????
+
 ## Sample Request and Response
 
 ### Request

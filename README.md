@@ -13,7 +13,6 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 ## Resources
 
-The retrieved data is formatted using JSON, as is shown below:
 
 ????
 
@@ -29,7 +28,10 @@ https://api.covid-manitoba.org/json?cases=total
 
 
 
-### Responses
+### Response
+
+The retrieved data is formatted using JSON, as is shown below:
+
 
   ```
   {                       

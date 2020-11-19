@@ -23,14 +23,14 @@ https://api.covid-manitoba.org/json?city='winnipeg'&lat
 https://api.covid-manitoba.org/json?date=2020-05-30
 
 ### Response
-  {
-      "results":
-      {
-        "total_cases:"342",
-        "inrease_cases_from_previous_day":"50"
-        "total_deaths":"12",
-        "increase_deaths_from previous_day":"1"
-        "total_recovered":"100"
-      },
-       "status":"OK"
-    }
+  {                       
+      "results":                          
+      {                                        
+        "total_cases:"342",                                
+        "inrease_cases_from_previous_day":"50"                      
+        "total_deaths":"12",                      
+        "increase_deaths_from previous_day":"1"                   
+        "total_recovered":"100"                           
+      },                           
+       "status":"OK"                                      
+    }                      

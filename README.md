@@ -30,7 +30,7 @@ https://api.covid-manitoba.org/json?cases=total
 
 
 ### Responses
-
+---
   {                       
       "results":                          
       {                                        
@@ -42,4 +42,4 @@ https://api.covid-manitoba.org/json?cases=total
       },                           
        "status":"OK"                                      
     }                      
-
+---

@@ -10,7 +10,7 @@ The API can be utilized through the following single endpoint and supporting par
 
 **Endpoint:** https://api.covid-manitoba.org/json
 
-###Parameters
+### Parameters
 
 * **case-type (string)**
   * Filter cases by "total" or "active" number of cases

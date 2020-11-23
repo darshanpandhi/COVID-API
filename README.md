@@ -4,8 +4,13 @@
 
 This **free** API provides COVID-19 statistics in Manitoba for the requested type of cases (**active** or **total**). Optionally, one can request this for a specific **city** and **date** and retrieve that information, otherwise it will return it for the entire province.
 
-## Endpoints and Parameters
+## API Documentation
+
+The API can be utilized through the following single endpoint and supporting parameters.
+
 **Endpoint:** https://api.covid-manitoba.org/json
+
+###Parameters
 
 * **case-type (string)**
   * Filter cases by "total" or "active" number of cases

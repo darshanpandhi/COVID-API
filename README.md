@@ -30,7 +30,7 @@ The covid-manitoba API has 2 resources:
 
 1. **Endpoint:** total-cases
      ```
-    **GET**   /population/total-cases
+    GET         /population/total-cases
    ```
 
     This endpoint is used to **GET** the number of total COVID cases.
@@ -51,7 +51,7 @@ The covid-manitoba API has 2 resources:
 2. **Endpoint:** active-cases
 
      ```
-    **GET**   /population/active-cases
+    GET         /population/active-cases
    ```
     
     This endpoint is used to **GET** the number of active COVID cases.
@@ -72,8 +72,8 @@ The covid-manitoba API has 2 resources:
 
 3. **Endpoint:** hospitals
 
-  ```
-    **GET**   /healthcare/hospitals
+     ```
+    GET         /healthcare/hospitals
    ```
 
 

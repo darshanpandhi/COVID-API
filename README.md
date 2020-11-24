@@ -108,16 +108,16 @@ https://api.covid-manitoba.org/population/total-cases
     <summary> Sample Response {...} </summary>
     
 ```
-    {                       
+{                       
     "results":                          
     {                                        
-      "cases: 12482,                                
-      "time_period_start_date": "2020-01-01",
-      "time_period_end_date": "2020-11-23",
-      "region": "Manitoba"
+        "cases:                         12482,                                
+        "time_period_start_date":       "2020-01-01",
+        "time_period_end_date":         "2020-11-24",
+        "region":                       "Manitoba"
     },                           
-     "status":"OK"                                      
-  } 
+        "status":                       "OK"                                      
+} 
 ```
 </details>
 
@@ -126,31 +126,65 @@ https://api.covid-manitoba.org/population/total-cases
 https://api.covid-manitoba.org/population/active-cases?city=brandon
 ```
 
+
 <details>
     <summary> Sample Response {...} </summary>
     
-
-    ```
-    {                       
+```
+{                       
     "results":                          
     {                                        
-      "cases: 2482,                                
-      "time_period_start_date": "2020-01-01",
-      "time_period_end_date": "2020-11-23",
-      "region": "Brandon"
+        "cases:                         2482,                                
+        "time_period_start_date":       "2020-01-01",
+        "time_period_end_date":         "2020-11-24",
+        "region":                       "Brandon"
     },                           
-     "status":"OK"                                      
-  }  
-    ```
+        "status":                       "OK"                                      
+} 
+```
 </details>
+
 
 ```
 https://api.covid-manitoba.org/population/active-cases?city=selkirk&date=2020-11-24
 ```
 
+<details>
+    <summary> Sample Response {...} </summary>
+    
+```
+{                       
+    "results":                          
+    {                                        
+        "cases:                         482,                                
+        "time_period_start_date":       "2020-11-24",
+        "time_period_end_date":         "2020-11-24",
+        "region":                       "Selkirk"
+    },                           
+        "status":                       "OK"                                      
+} 
+```
+</details>
+
 ```
 https://api.covid-manitoba.org/healthcare/hospitals
 ```
+
+<details>
+    <summary> Sample Response {...} </summary>
+    
+```
+{                       
+    "results":                          
+    {                                        
+        "number_of_hospitals:           21,                                
+        "number_of_available_beds":     298,
+        "region":                       "Manitoba"
+    },                           
+        "status":                       "OK"                                      
+} 
+```
+</details>
 
 ### Requests
 ```

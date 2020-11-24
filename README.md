@@ -98,6 +98,35 @@ The covid-manitoba API has 2 resources:
 
 ## Sample Requests with Sample Responses
 
+```
+https://api.covid-manitoba.org/population/total-cases
+```
+
+<details>
+    <summary> Sample Response {...} </summary>
+    
+
+    ```
+    {
+    }
+    ```
+
+
+    </details>
+
+
+```
+https://api.covid-manitoba.org/population/active-cases?city=brandon
+```
+
+```
+https://api.covid-manitoba.org/population/active-cases?city=selkirk&date=2020-11-24
+```
+
+```
+https://api.covid-manitoba.org/healthcare/hospitals
+```
+
 ### Requests
 ```
 https://api.covid-manitoba.org/covid_data/json?cases=total

@@ -47,6 +47,8 @@ The covid-manitoba API has 2 resources:
     ---
 
     </details>
+    
+    ---
 
 2. **Endpoint:** active-cases
 
@@ -68,6 +70,8 @@ The covid-manitoba API has 2 resources:
     --- 
 
     </details>
+    
+    ---
 
 
 3. **Endpoint:** hospitals
@@ -87,6 +91,8 @@ The covid-manitoba API has 2 resources:
 
 
     </details>
+    
+    ---
 
 
 

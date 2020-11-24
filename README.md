@@ -123,7 +123,10 @@ https://api.covid-manitoba.org/population/total-cases
         "status":                       "OK"                                      
 } 
 ```
+
+---
 </details>
+
 
  <br>
 
@@ -147,6 +150,7 @@ https://api.covid-manitoba.org/population/active-cases?city=brandon
         "status":                       "OK"                                      
 } 
 ```
+---
 </details>
 
  <br>
@@ -170,6 +174,7 @@ https://api.covid-manitoba.org/population/active-cases?city=selkirk&date=2020-11
         "status":                       "OK"                                      
 } 
 ```
+---
 </details>
 
  <br>
@@ -192,6 +197,7 @@ https://api.covid-manitoba.org/healthcare/hospitals
         "status":                       "OK"                                      
 } 
 ```
+---
 </details>
 
  <br>

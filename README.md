@@ -193,3 +193,27 @@ https://api.covid-manitoba.org/healthcare/hospitals
 } 
 ```
 </details>
+
+ <br>
+
+```
+https://api.covid-manitoba.org/population/active-cases?date=5-2020-24
+```
+<details>
+    <summary> Sample Response {...} </summary>
+    
+```
+{                       
+    "results":                          
+    {   
+    
+    },                           
+        "status":                       "INVALID_REQUEST"                                      
+} 
+```
+
+ **Note:** This is because the date parameter was not specified in its required format of YYYY-MM-DD
+ 
+</details>
+
+

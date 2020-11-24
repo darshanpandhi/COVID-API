@@ -105,14 +105,14 @@ https://api.covid-manitoba.org/population/total-cases
 <details>
     <summary> Sample Response {...} </summary>
     
-
+</details>
     ```
     {
     }
     ```
 
 
-    </details>
+    
 
 
 ```

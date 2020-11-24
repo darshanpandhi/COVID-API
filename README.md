@@ -67,11 +67,11 @@ The covid-manitoba API has 2 resources:
     | Date  | Optional | If no date is provided, active cases will be shown right from the beginning till today | Filter active cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
     | City | Optional | If a city is not specified, active cases for the entire province will be shown | Filter active cases by a specific city in Manitoba | winnipeg
 
-    <br>
+    ---
 
     </details>
     
-    ---
+    <br>
 
 
 3. **Endpoint:** hospitals

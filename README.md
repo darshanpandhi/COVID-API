@@ -17,16 +17,9 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 ## Description of Resources
 
-* **total_cases (int)**
-  * Total number of covid cases to date.
-* **inrease_cases_from_previous_day (int)**
-  * Increase in the total number of covid cases from the previous day. 
-* **total_deaths (int)**
-  * Total number of deaths form covid to date.
-* **increase_deaths_from previous_day (int)**
-  * Increase in total number of deaths from the previous day.
-* **total_recovered (int)**
-  * Total number of people who have recovered from covid to date.
+* **default**
+  * **GET**/json Get Manitoba covid data.
+
   
   
 ## Sample Requests with Sample Responses

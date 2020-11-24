@@ -6,22 +6,36 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 **Base URL:** https://api.covid-manitoba.org
 
+## Description of Resources
+
+The covid-manitoba API has 2 resources:
+1. population - this has two endpoints: totoal-cases and active-cases
+2. healthcare - this has one endpoint: hospitals
+
 ## Endpoints and Parameters
-**Endpoint:** cases
+
+### 1. population
+
+**Endpoint:** total-cases
 
 | Parameter Name | Required / Optional | Default value | Description | Example |
 | ------ | ---------- | --- | --- | --- |
-| Type   | Required         | No default value as this parameter should always be specified (required) | Filter cases as "total", "active", "deaths" or "recoveries" | deaths |
-| Date  | Optional | If no date is provided, total cases will be shown right from the beginning till today | Filter cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
-| City | Optional | If a city is not specified, cases for the entire province will be shown | Filter the number of cases by a specific city in Manitoba | winnipeg |
+| Date  | Optional | If no date is provided, total cases will be shown right from the beginning till today | Filter total cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
+| City | Optional | If a city is not specified, total cases for the entire province will be shown | Filter total cases by a specific city in Manitoba | winnipeg |
 
-## Description of Resources
+**Endpoint:** active-cases
 
-**covid_data**
-  * **GET**/json Get Manitoba covid data.
+| Parameter Name | Required / Optional | Default value | Description | Example |
+| ------ | ---------- | --- | --- | --- |
+| Date  | Optional | If no date is provided, active cases will be shown right from the beginning till today | Filter active cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
+| City | Optional | If a city is not specified, active cases for the entire province will be shown | Filter active cases by a specific city in Manitoba | winnipeg |
 
-  
-  
+
+### 2. healthcare
+
+**Endpoint:** hospitals
+
+
 ## Sample Requests with Sample Responses
 
 ### Requests

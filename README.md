@@ -10,10 +10,7 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 The covid-manitoba API has 2 resources:
 
-1. **Resource:** 
-    ```
-    population
-    ```
+1. **Resource:** population
     
     The population resource has two endpoints: *total-cases* and *active-cases*
 
@@ -26,7 +23,7 @@ The covid-manitoba API has 2 resources:
 
 1. **Endpoint:** total-cases
 
-    This endpoint is used to 
+    This endpoint is used to **GET** the number of total COVID cases.
     
     <details>
         <summary>Parameters {...} </summary>
@@ -42,6 +39,8 @@ The covid-manitoba API has 2 resources:
     </details>
 
 2. **Endpoint:** active-cases
+
+    This endpoint is used to **GET** the number of active COVID cases.
 
     <details>
         <summary>Parameters {...} </summary>
@@ -59,11 +58,14 @@ The covid-manitoba API has 2 resources:
 
 3. **Endpoint:** hospitals
 
+
+    This endpoint is used to **GET** the number of hospitals equipped to handle COVID patients.
+
     <details>
     <summary> Parameters {...} </summary>
     
 
-    This endpoint has no parameters.
+    This endpoint supports no parameters.
 
 
     </details>

@@ -17,7 +17,7 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 ## Description of Resources
 
-**default**
+**covid_data**
   * **GET**/json Get Manitoba covid data.
 
   
@@ -26,13 +26,13 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 ### Requests
 ```
-https://api.covid-manitoba.org/json?cases=total
+https://api.covid-manitoba.org/covid_data/json?cases=total
 
-https://api.covid-manitoba.org/json?cases=total&city='winnipeg'            
+https://api.covid-manitoba.org/covid_data/json?cases=total&city='winnipeg'            
 
-https://api.covid-manitoba.org/json?cases=active&date=2020-05-30
+https://api.covid-manitoba.org/covid_data/json?cases=active&date=2020-05-30
 
-https://api.covid-manitoba.org/json?cases=active&city='winnipeg'&date=2020-05-30
+https://api.covid-manitoba.org/covid_data/json?cases=active&city='winnipeg'&date=2020-05-30
 
 ```
 

@@ -14,14 +14,14 @@ The covid-manitoba API has 2 resources:
 **Endpoint:** total-cases
 
 <details>
-  <summary><strong> See Parameters {...} </strong></summary>
+  <summary>Parameters {...} </summary>
   
-```
+
 | Parameter Name | Required / Optional | Default value | Description | Example |
 | ------ | ---------- | --- | --- | --- |
 | Date  | Optional | If no date is provided, total cases will be shown right from the beginning till today | Filter total cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
 | City | Optional | If a city is not specified, total cases for the entire province will be shown | Filter total cases by a specific city in Manitoba | winnipeg |
-```
+
 
 </details>
 
@@ -30,14 +30,13 @@ The covid-manitoba API has 2 resources:
 **Endpoint:** active-cases
 
 <details>
-  <summary><strong> See Parameters {...} </strong></summary>
+  <summary>Parameters {...} </summary>
   
-```
+
 | Parameter Name | Required / Optional | Default value | Description | Example |
 | ------ | ---------- | --- | --- | --- |
 | Date  | Optional | If no date is provided, active cases will be shown right from the beginning till today | Filter active cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
-| City | Optional | If a city is not specified, active cases for the entire province will be shown | Filter active cases by a specific city in Manitoba | winnipeg |
-```
+| City | Optional | If a city is not specified, active cases for the entire province will be shown | Filter active cases by a specific city in Manitoba | winnipeg 
 
 </details>
 
@@ -47,11 +46,11 @@ The covid-manitoba API has 2 resources:
 **Endpoint:** hospitals
 
 <details>
-  <summary><strong> See Parameters {...} </strong></summary>
+  <summary> Parameters {...} </summary>
   
-```
-This end point has no parameters.
-```
+
+This endpoint has no parameters.
+
 
 </details>
 

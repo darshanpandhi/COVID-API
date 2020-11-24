@@ -17,6 +17,90 @@ The covid-manitoba API has 2 resources:
     
     The population resource has two endpoints: *total-cases* and *active-cases*
     
+
+2. **Resource:** healthcare
+    ```
+    /healthcare
+   ```
+
+    The healthcare resource has one endpoint: *hospitals*
+
+
+## Endpoints and Parameters
+
+1. **Endpoint:** total-cases
+     ```
+    **GET**   /population/total-cases
+   ```
+
+    This endpoint is used to **GET** the number of total COVID cases.
+    
+    <details>
+        <summary>Parameters {...} </summary>
+
+
+    | Parameter Name | Required / Optional | Default value | Description | Example |
+    | ------ | ---------- | --- | --- | --- |
+    | Date  | Optional | If no date is provided, total cases will be shown right from the beginning till today | Filter total cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
+    | City | Optional | If a city is not specified, total cases for the entire province will be shown | Filter total cases by a specific city in Manitoba | winnipeg |
+
+    ---
+
+    </details>
+
+2. **Endpoint:** active-cases
+
+     ```
+    **GET**   /population/active-cases
+   ```
+    
+    This endpoint is used to **GET** the number of active COVID cases.
+
+    <details>
+        <summary>Parameters {...} </summary>
+
+
+    | Parameter Name | Required / Optional | Default value | Description | Example |
+    | ------ | ---------- | --- | --- | --- |
+    | Date  | Optional | If no date is provided, active cases will be shown right from the beginning till today | Filter active cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
+    | City | Optional | If a city is not specified, active cases for the entire province will be shown | Filter active cases by a specific city in Manitoba | winnipeg
+
+    --- 
+
+    </details>
+
+
+3. **Endpoint:** hospitals
+
+  ```
+    **GET**   /healthcare/hospitals
+   ```
+
+
+    This endpoint is used to **GET** the number of hospitals equipped to handle COVID patients.
+
+    <details>
+    <summary> Parameters {...} </summary>
+    
+
+    This endpoint supports no parameters.
+
+
+    </details>
+
+
+
+## Resources
+
+The covid-manitoba API has 2 resources:
+
+1. **Resource:** population
+    ```
+    /population
+   ```
+    
+    The population resource has two endpoints: *total-cases* and *active-cases*
+    
 1. ```
     /population
    ```

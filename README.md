@@ -44,16 +44,16 @@ The covid-manitoba API has 2 resources:
 
 ### 2. healthcare
 
-  a. **Endpoint:** hospitals
+  * **Endpoint:** hospitals
 
-<details>
-  <summary> Parameters {...} </summary>
-  
+    <details>
+    <summary> Parameters {...} </summary>
+    
 
-This endpoint has no parameters.
+    This endpoint has no parameters.
 
 
-</details>
+    </details>
 
 
 ## Sample Requests with Sample Responses

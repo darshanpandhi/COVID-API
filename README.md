@@ -1,56 +1,38 @@
 # COVID-API
 
-## Description
+## API Description
 
 This **free** API provides COVID-19 statistics in Manitoba for the requested type of cases (**active** or **total**). Optionally, one can request this for a specific **city** and **date** and retrieve that information, otherwise it will return it for the entire province.
 
-## API Documentation
 
-The API can be utilized through the following single endpoint and supporting parameters.
+**Base URL:** https://api.covid-manitoba.org
 
-**Endpoint:** https://api.covid-manitoba.org/json
+## Endpoints and Parameters
+**Endpoint:** cases
 
-### Parameters
+| Parameter Name | Required / Optional | Default value | Description | Example |
+| ------ | ---------- | --- | --- | --- |
+| Type   | Required         | No default value as this parameter should always be specified (required) | Filter cases as "total", "active", "deaths" or "recoveries" | deaths |
+| Date  | Optional | If no date is provided, total cases will be shown right from the beginning till today | Filter cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
+| City | Optional | If a city is not specified, cases for the entire province will be shown | Filter the number of cases by a specific city in Manitoba | winnipeg |
 
-* **case-type (string)**
-  * Filter cases by "total" or "active" number of cases
-  * Example: total
-  * Required
-* **city (string)**
-  * Filter the number of cases by a specific city in Manitoba
-  * Example: winnipeg
-  * Optional
-* **date (string)**
-  * Filter the number of cases by a specific date (in YYYY-MM-DD format)
-  * Example: 2020-11-12
-  * Optional          
-  * If not present, 
+## Description of Resources
 
-## Resources
+**covid_data**
+  * **GET**/json Get Manitoba covid data.
 
-* **total_cases (int)**
-  * Total number of covid cases to date.
-* **inrease_cases_from_previous_day (int)**
-  * Increase in the total number of covid cases from the previous day. 
-* **total_deaths (int)**
-  * Total number of deaths form covid to date.
-* **increase_deaths_from previous_day (int)**
-  * Increase in total number of deaths from the previous day.
-* **total_recovered (int)**
-  * Total number of people who have recovered from covid to date.
   
-  
-## Sample Requests and Responses
+## Sample Requests with Sample Responses
 
 ### Requests
 ```
-https://api.covid-manitoba.org/json?cases=total
+https://api.covid-manitoba.org/covid_data/json?cases=total
 
-https://api.covid-manitoba.org/json?cases=total&city='winnipeg'            
+https://api.covid-manitoba.org/covid_data/json?cases=total&city='winnipeg'            
 
-https://api.covid-manitoba.org/json?cases=active&date=2020-05-30
+https://api.covid-manitoba.org/covid_data/json?cases=active&date=2020-05-30
 
-https://api.covid-manitoba.org/json?cases=active&city='winnipeg'&date=2020-05-30
+https://api.covid-manitoba.org/covid_data/json?cases=active&city='winnipeg'&date=2020-05-30
 
 ```
 

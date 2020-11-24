@@ -10,6 +10,13 @@ Covid-Manitoba API provides vital statistics regarding the ongoing pandemic. It 
 
 The covid-manitoba API has 2 resources:
 
+1. **Resource:** population
+```
+    /population
+   ```
+    
+    The population resource has two endpoints: *total-cases* and *active-cases*
+    
 1. ```
     /population
    ```

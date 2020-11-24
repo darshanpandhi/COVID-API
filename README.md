@@ -1,6 +1,6 @@
 # COVID-API
 
-## Description
+## API Description
 
 This **free** API provides COVID-19 statistics in Manitoba for the requested type of cases (**active** or **total**). Optionally, one can request this for a specific **city** and **date** and retrieve that information, otherwise it will return it for the entire province.
 
@@ -21,7 +21,7 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
   * Optional          
   * If not present, 
 
-## Resources
+## Description of Resources
 
 * **total_cases (int)**
   * Total number of covid cases to date.
@@ -35,7 +35,7 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
   * Total number of people who have recovered from covid to date.
   
   
-## Sample Requests and Responses
+## Sample Requests with Sample Responses
 
 ### Requests
 ```

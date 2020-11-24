@@ -11,13 +11,13 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 The covid-manitoba API has 2 resources:
 ### 1. population
 
-  1. **Endpoint:** total-cases
+  a. **Endpoint:** total-cases
 
   <details>
     <summary>Parameters {...} </summary>
 
 
-  | Parameter Name | Required / Optional | Default value | Description | Example |
+   | Parameter Name | Required / Optional | Default value | Description | Example |
   | ------ | ---------- | --- | --- | --- |
   | Date  | Optional | If no date is provided, total cases will be shown right from the beginning till today | Filter total cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
   | City | Optional | If a city is not specified, total cases for the entire province will be shown | Filter total cases by a specific city in Manitoba | winnipeg |
@@ -27,18 +27,18 @@ The covid-manitoba API has 2 resources:
 
 
 
-  2. **Endpoint:** active-cases
+  b. **Endpoint:** active-cases
 
-<details>
-  <summary>Parameters {...} </summary>
-  
+  <details>
+    <summary>Parameters {...} </summary>
 
-| Parameter Name | Required / Optional | Default value | Description | Example |
-| ------ | ---------- | --- | --- | --- |
-| Date  | Optional | If no date is provided, active cases will be shown right from the beginning till today | Filter active cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
-| City | Optional | If a city is not specified, active cases for the entire province will be shown | Filter active cases by a specific city in Manitoba | winnipeg 
 
-</details>
+  | Parameter Name | Required / Optional | Default value | Description | Example |
+  | ------ | ---------- | --- | --- | --- |
+  | Date  | Optional | If no date is provided, active cases will be shown right from the beginning till today | Filter active cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
+  | City | Optional | If a city is not specified, active cases for the entire province will be shown | Filter active cases by a specific city in Manitoba | winnipeg 
+
+  </details>
 
 
 ### 2. healthcare

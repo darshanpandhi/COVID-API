@@ -6,6 +6,8 @@ Covid-Manitoba API provides vital statistics regarding the ongoing pandemic. It 
 
 **Base URL:** https://api.covid-manitoba.org
 
+<br>
+
 ## Resources
 
 The covid-manitoba API has 2 resources:
@@ -25,6 +27,7 @@ The covid-manitoba API has 2 resources:
 
     The healthcare resource has one endpoint: *hospitals*
 
+<br>
 
 ## Endpoints and Parameters
 
@@ -94,7 +97,7 @@ The covid-manitoba API has 2 resources:
     
      <br>
 
-
+<br>
 
 ## Resources
 

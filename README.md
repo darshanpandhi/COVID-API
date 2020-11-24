@@ -98,7 +98,11 @@ The covid-manitoba API has 2 resources:
 
 ## Sample Requests with Sample Responses
 
-**Note:** The responses are formatted using JSON.
+ <br>
+ 
+ **Note:** The responses are formatted using JSON.
+
+ <br>
 
 ```
 https://api.covid-manitoba.org/population/total-cases

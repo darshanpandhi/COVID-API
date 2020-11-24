@@ -107,19 +107,42 @@ https://api.covid-manitoba.org/population/total-cases
 <details>
     <summary> Sample Response {...} </summary>
     
-
-    ```
-    {
-    }
-    ```
+```
+    {                       
+    "results":                          
+    {                                        
+      "cases: 12482,                                
+      "time_period_start_date": "2020-01-01",
+      "time_period_end_date": "2020-11-23",
+      "region": "Manitoba"
+    },                           
+     "status":"OK"                                      
+  } 
+```
 </details>
-
-    
 
 
 ```
 https://api.covid-manitoba.org/population/active-cases?city=brandon
 ```
+
+<details>
+    <summary> Sample Response {...} </summary>
+    
+
+    ```
+    {                       
+    "results":                          
+    {                                        
+      "cases: 2482,                                
+      "time_period_start_date": "2020-01-01",
+      "time_period_end_date": "2020-11-23",
+      "region": "Brandon"
+    },                           
+     "status":"OK"                                      
+  }  
+    ```
+</details>
 
 ```
 https://api.covid-manitoba.org/population/active-cases?city=selkirk&date=2020-11-24

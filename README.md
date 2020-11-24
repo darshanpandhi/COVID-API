@@ -4,22 +4,16 @@
 
 This **free** API provides COVID-19 statistics in Manitoba for the requested type of cases (**active** or **total**). Optionally, one can request this for a specific **city** and **date** and retrieve that information, otherwise it will return it for the entire province.
 
-## Endpoints and Parameters
-**Endpoint:** https://api.covid-manitoba.org/json
+**Base URL:** https://api.covid-manitoba.org
 
-* **case-type (string)**
-  * Filter cases by "total" or "active" number of cases
-  * Example: total
-  * Required
-* **city (string)**
-  * Filter the number of cases by a specific city in Manitoba
-  * Example: winnipeg
-  * Optional
-* **date (string)**
-  * Filter the number of cases by a specific date (in YYYY-MM-DD format)
-  * Example: 2020-11-12
-  * Optional          
-  * If not present, 
+## Endpoints and Parameters
+**Endpoint:** cases
+
+| Parameter Name | Required / Optional | Description | Example |
+| ------ | ---------- | --- | --- |
+| Type   | Required         | Filter cases as "total", "active", "deaths" or "recoveries" | deaths |
+| Date  | Optional | Filter cases by a specific date (in YYYY-MM-DD format) | 2020-11-12 |
+| City | Optional      | Filter the number of cases by a specific city in Manitoba | winnipeg |
 
 ## Description of Resources
 

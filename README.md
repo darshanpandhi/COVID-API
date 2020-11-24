@@ -26,8 +26,6 @@ The covid-manitoba API has 2 resources:
 
     </details>
 
-    &nbsp;
-
   * **Endpoint:** active-cases
 
     <details>

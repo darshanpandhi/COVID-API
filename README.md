@@ -17,7 +17,7 @@ This **free** API provides COVID-19 statistics in Manitoba for the requested typ
 
 ## Description of Resources
 
-* **default**
+**default**
   * **GET**/json Get Manitoba covid data.
 
   

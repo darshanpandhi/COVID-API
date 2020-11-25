@@ -6,6 +6,7 @@ Covid-Manitoba API provides vital statistics regarding the ongoing pandemic. It 
 
 **Base URL:** https://api.covid-manitoba.org
 
+![API Resouces, Endpoints, Parameters Chart](API Resouces, Endpoints, Parameters Chart.png)
 
 ## Resources
 

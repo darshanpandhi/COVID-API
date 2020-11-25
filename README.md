@@ -30,7 +30,8 @@ The covid-manitoba API has 2 resources:
      <br>
      
  **Note:** The responses will be formatted using JSON.
-
+ 
+ <br>
 
 ## Endpoints and Parameters
 

@@ -15,7 +15,7 @@ The covid-manitoba API has 2 resources:
     /cases
    ```
     
-    The population resource has two endpoints: *total-cases* and *active-cases*
+    The cases resource has two endpoints: *total-cases* and *active-cases*
     
     <br>
     

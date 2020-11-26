@@ -10,12 +10,12 @@ Covid-Manitoba API provides vital statistics regarding the ongoing pandemic. It 
 
 The covid-manitoba API has 2 resources:
 
-1. **Resource:** cases
+1. **Resource:** population
     ```
-    /cases
+    /population
    ```
     
-    The cases resource has two endpoints: *total-cases* and *active-cases*
+    The population resource has two endpoints: *total-cases* and *active-cases*
     
     <br>
     
@@ -37,7 +37,7 @@ The covid-manitoba API has 2 resources:
 
 1. **Endpoint:** total-cases
      ```
-    GET         /cases/total-cases
+    GET         /population/total-cases
    ```
 
     This endpoint is used to **GET** the number of total COVID cases.
@@ -60,7 +60,7 @@ The covid-manitoba API has 2 resources:
 2. **Endpoint:** active-cases
 
      ```
-    GET         /cases/active-cases
+    GET         /population/active-cases
    ```
     
     This endpoint is used to **GET** the number of active COVID cases.
@@ -108,7 +108,7 @@ The covid-manitoba API has 2 resources:
 
 
 ```
-https://api.covid-manitoba.org/cases/total-cases
+https://api.covid-manitoba.org/population/total-cases
 ```
 
 <details>
@@ -134,7 +134,7 @@ https://api.covid-manitoba.org/cases/total-cases
  <br>
 
 ```
-https://api.covid-manitoba.org/cases/active-cases?city=brandon
+https://api.covid-manitoba.org/population/active-cases?city=brandon
 ```
 
 
@@ -159,7 +159,7 @@ https://api.covid-manitoba.org/cases/active-cases?city=brandon
  <br>
 
 ```
-https://api.covid-manitoba.org/cases/active-cases?city=selkirk&date=2020-11-24
+https://api.covid-manitoba.org/population/active-cases?city=selkirk&date=2020-11-24
 ```
 
 <details>
@@ -206,7 +206,7 @@ https://api.covid-manitoba.org/healthcare/hospitals
  <br>
 
 ```
-https://api.covid-manitoba.org/cases/active-cases?date=5-2020-24
+https://api.covid-manitoba.org/population/active-cases?date=5-2020-24
 ```
 <details>
     <summary> Sample Response {...} </summary>

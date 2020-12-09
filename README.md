@@ -2,7 +2,7 @@
 
 ## API Description
 
-Covid-Manitoba API provides vital statistics regarding the ongoing pandemic. It provides information regarding the number of cases in the Manitoba population as well as information regarding the current healthcare situation in the province.
+The Covid-Manitoba API provides vital statistics regarding the ongoing pandemic. It provides information about the number of cases in the Manitoba population as well as information on the current healthcare situation in the province.
 
 **Base URL:** https://api.covid-manitoba.org
 
